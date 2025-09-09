@@ -111,3 +111,51 @@
     margin: 10px auto 0 auto;
 }
 
+.intensive{
+    background-color: #efefef;
+    padding: 80px 0;
+
+}
+
+.intensive_title{
+color: #252525;
+font-size: 30px;
+font-weight: 500;
+}
+.devider{
+    margin: 14px auto 0 auto;
+    width: 220px;
+    height: 7px;
+    background-color: #f9bf3b;
+}
+
+.intensive_subtitle{
+    margin-top: 15px;
+    color: #4a4a4a;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.intensive_wrapper{
+display: flex;
+margin-top: 42px;
+justify-content: space-between;
+}
+
+.intensive_item{
+    width: 360px;
+}
+
+.intensive_img{
+    width: 100%;
+}
+
+.intensive_descr{
+    margin-top:15px;
+    color:#4a4a4a;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
