@@ -272,3 +272,62 @@
 .bonuses .btn {
     margin-top: 0;
 }
+
+
+.webinar{
+    margin: 0 auto;
+    background: #040000;
+    padding: 50px 0;
+}
+
+.webinar_bg {
+    display: block;
+    margin: 0 auto;
+}
+
+.webinar_title{
+    color:#efefef;
+    text-transform: uppercase;
+    text-align: center;
+    margin:30px 0 30px 0;
+    font-size: 30px;
+
+}
+
+.webinar .title_colored{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+}
+
+.webinar_subtitle{
+    color:#efefef;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.contacts{
+    margin: 0 auto;
+    background: #1A1A1A;
+    padding: 50px 0;
+
+}
+
+.contacts_wrapper{
+    margin: 0 auto;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+.contacts_hyperlink{
+    color:#888888;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 16px;
+    font-weight: 300;
+}
