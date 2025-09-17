@@ -16,19 +16,20 @@
     text-transform: uppercase;
 }
 
-.title_colored{
+.title_colored {
     color: #f9bf3b;
     font-size: 41px;
     line-height: 41px;
 }
-.title_big{
+
+.title_big {
     color: #fff;
     font-size: 80px;
     line-height: 80px;
 }
 
 
-.medium{
+.medium {
     font-weight: 500px;
 }
 
@@ -39,12 +40,13 @@
     padding: 22px 0 53px 0;
 }
 
-.btn{
-    min-width:315px;
+.btn {
+    min-width: 315px;
     min-height: 72px;
     margin: 0 auto;
     padding: 0, 15px;
     display: block;
+    border-color: transparent;
     border-radius: 4px;
     background: linear-gradient(0deg, #ff4d00 0%, #feb05d 100%);
     color: #fff;
@@ -67,7 +69,7 @@
     margin-top: 13px;
     text-align: center;
     color: #FFF;
-    font-size: 16 px; 
+    font-size: 16 px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -75,17 +77,18 @@
 }
 
 .promo h1 {
-    margin-top:52px;
+    margin-top: 52px;
 }
+
 .promo h2 {
     margin-top: 12px;
 }
 
-.promo .btn{
+.promo .btn {
     margin-top: 75px;
 }
 
-.promo_text{
+.promo_text {
     text-align: center;
     margin-top: 20px;
     color: #fff;
@@ -95,13 +98,13 @@
     line-height: 28px;
 }
 
-.promo_text span{
+.promo_text span {
     color: #f9bf3b;
     text-transform: uppercase;
 }
 
 
-.promo_more-text{
+.promo_more-text {
     margin-top: 75px;
     color: #fff;
     text-align: center;
@@ -112,31 +115,32 @@
     text-transform: uppercase;
 }
 
-.promo_more-img{
+.promo_more-img {
     margin-top: 10px;
     display: block;
     margin: 10px auto 0 auto;
 }
 
-.intensive{
+.intensive {
     background-color: #efefef;
     padding: 80px 0;
 
 }
 
-.intensive_title{
-color: #252525;
-font-size: 30px;
-font-weight: 500;
+.intensive_title {
+    color: #252525;
+    font-size: 30px;
+    font-weight: 500;
 }
-.devider{
+
+.devider {
     margin: 14px auto 0 auto;
     width: 220px;
     height: 7px;
     background-color: #f9bf3b;
 }
 
-.intensive_subtitle{
+.intensive_subtitle {
     margin-top: 15px;
     color: #4a4a4a;
     text-align: center;
@@ -145,46 +149,46 @@ font-weight: 500;
     line-height: normal;
 }
 
-.intensive_wrapper{
-display: flex;
-margin-top: 42px;
-justify-content: space-between;
+.intensive_wrapper {
+    display: flex;
+    margin-top: 42px;
+    justify-content: space-between;
 }
 
-.intensive_item{
+.intensive_item {
     width: 360px;
 }
 
-.intensive_img{
+.intensive_img {
     width: 100%;
 }
 
-.intensive_descr{
-    margin-top:15px;
-    color:#4a4a4a;
+.intensive_descr {
+    margin-top: 15px;
+    color: #4a4a4a;
     text-align: center;
     font-size: 16px;
     font-weight: 300;
 }
 
 
-.info{
+.info {
     min-height: 564px;
     background: #040000;
     padding: 100px 0 140px 0;
 
 }
 
-.info_title{
-    color:#f9bf3b;
+.info_title {
+    color: #f9bf3b;
     font-size: 30px;
     text-align: right;
 }
 
-.info_text{
+.info_text {
     position: relative;
     padding-left: 390px;
-    color:#FFF;
+    color: #FFF;
     text-align: right;
     font-size: 16px;
     font-weight: 300;
@@ -192,13 +196,13 @@ justify-content: space-between;
     z-index: 2;
 }
 
-.info_text.medium{
+.info_text.medium {
     font-weight: 500;
 }
 
 
-.info_img{
-     position: absolute;
+.info_img {
+    position: absolute;
     top: 93px;
     left: -83px;
     z-index: 1;
@@ -206,43 +210,65 @@ justify-content: space-between;
 
 
 
-.skills{
+.skills {
     background: url('../img/secondary_bg.jpg') center center / cover no-repeat;
     padding: 80px 0 102px 0;
 }
 
-.skills_title{
-    color:#efefef;
+.skills_title {
+    color: #efefef;
     font-size: 30px;
     font-weight: 400;
 }
 
-.skills_wrapper{
+.skills_wrapper {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
 }
 
-.skills_item{
+.skills_item {
     width: 224px;
 }
 
-.skills_round{
+.skills_round {
     width: 118px;
     height: 118px;
     margin: 0 auto;
     border-radius: 100%;
-    background:#f9bf3b;
+    background: #f9bf3b;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.skills_desc{
+.skills_desc {
     margin-top: 18px;
-    color:#efefef;
+    color: #efefef;
     text-align: center;
     font-size: 16px;
     font-weight: 300;
+}
+
+.bonuses {
+    padding: 80px 0 102px 0;
+    background: #efefef;
+}
+
+.bonuses_icon {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.bonuses_slogan {
+    font-size: 30px;
+    text-transform: none;
+    margin: 80px auto 40px auto;
+    line-height: 150%;
+}
+
+.bonuses .btn {
+    margin-top: 0;
 }
